@@ -121,7 +121,7 @@ if __name__ == "__main__":
     main()
 
 # # PhoWhisper-small trên CPU
-# python src/transcribe.py E:/SR/A_Thanh/S/S.mp4 output.json --backend pho --model quocphu/PhoWhisper-ct2-FasterWhisper/PhoWhisper-small-ct2-fasterWhisper --lang vi
+# python src/transcribe.py E:/SR/A_Thanh/S/S.mp4 output.json --backend pho --model qbsmlabs/PhoWhisper-small --lang vi
 
 # # Whisper-small
 # python src/transcribe.py audio.mp3 out.json --backend whisper --model small
